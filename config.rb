@@ -41,11 +41,11 @@ configure :development do
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+ helpers do
+   def page_or_default(variable)
+     current_page.data[variable] || data.site.defaults[variable]
+   end
+ end
 
 set :css_dir, 'stylesheets'
 
