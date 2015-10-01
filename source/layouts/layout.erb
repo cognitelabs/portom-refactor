@@ -1,19 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
 
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <!-- Basic -->
+    <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title><%= current_page.data.title || "SuperWebPros" %></title>
 
-    <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Porto - Responsive HTML5 Template">
+    <meta name="author" content="okler.net">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Web Fonts  -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
+
+    <!-- Theme CSS -->
+    <%= stylesheet_link_tag "normalize"%>
+    <%= stylesheet_link_tag "theme" %>
+    <%= stylesheet_link_tag "theme-elements" %>
+    <%= stylesheet_link_tag "theme-blog" %>
+    <%= stylesheet_link_tag "theme-shop" %>
+    <%= stylesheet_link_tag "theme-animate" %>
+
+    <!-- Current Page CSS -->
+    <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
+    <link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen">
+
+    <!-- Skin CSS -->
+    <%= stylesheet_link_tag "skins/default" %>
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Head Libs -->
+    <script src="vendor/modernizr/modernizr.js"></script>
+
+    <!--[if IE]>
+      <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+      <script src="vendor/respond/respond.js"></script>
+      <script src="vendor/excanvas/excanvas.js"></script>
+    <![endif]-->
+
   </head>
 
   <body class="<%= page_classes %>">
+    <%= partial "partials/headers/header-default" %>
     <%= yield %>
+    <%= partial "javascripts" %>
   </body>
 </html>
