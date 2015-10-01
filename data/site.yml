@@ -6,6 +6,11 @@ defaults:
  favicon: img/favicon.ico
  appletouchicon: img/apple-touch-icon.png
  fonts: http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light
- facebook: false
- twitter: false
- linkedIn: false
+ facebookurl: false
+ twitterurl: false
+ linkedinurl: false
+ businessaddress: false
+ businessphone: false
+ businessemail: false
+ showlatesttweets: false
+ shownewslettersignup: false
