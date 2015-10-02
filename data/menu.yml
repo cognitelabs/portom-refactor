@@ -10,13 +10,13 @@ Home:
        url: index-classic-color.html
     Classic - Light:
        url: index-classic-light.html
-       cssclass: tip tip-primary
+       extrahtml: <span class="tip tip-primary">Hero</span>
     Classic - Video:
        url: index-classic-video.html
-       cssclass: tip tip-secondary
+       extrahtml: <span class="tip tip-secondary">SuperHero</span>
     Classic - Video - Light:
        url: index-classic-video-light.html
-       cssclass: tip tip-secondary
+       extrahtml: <span class="tip tip-secondary">SuperHero</span>
  Corporate:
     url: index-corporate.html 
     extrahtml: <span class="tip">new</span>
@@ -37,10 +37,10 @@ Home:
         url: index-corporate-6.html
     Corporate - Version 7:
         url: index-corporate-7.html
-        cssclass: tip tip-secondary
+        extrahtml: <span class="tip tip-secondary">SuperHero</span>
     Corporate - Version 8:
         url: index-corporate-8.html
-        cssclass: tip tip-secondary
+        extrahtml: <span class="tip tip-secondary">SuperHero</span>
  One Page:
     url: #
     One Page Original:
@@ -77,6 +77,7 @@ Interactions:
     url: shortcodes-lists.html
    Image Gallery:
     url: shortcodes-image-gallery.html
+    extrahtml: <span class="tip tip-primary">Hero</span>
    Image Frames:
     url: shortcodes-image-frames.html
     extrahtml: <span class="tip tip-primary">Hero</span>
@@ -86,7 +87,7 @@ Interactions:
     url: shortcodes-blockquotes.html
    Word Rotator: 
     url: shortcodes-word-rotator.html
-    cssclass: tip tip-secondary
+    extrahtml: <span class="tip tip-secondary">SuperHero</span>
  Interactions 3:
    Call to Action:
     url: shortcodes-call-to-action.html   
@@ -96,19 +97,19 @@ Interactions:
     url: shortcodes-tables.html
    Progress Bars:
     url: shortcodes-progressbars.html
-    cssclass: tip tip-secondary
+    extrahtml: <span class="tip tip-secondary">SuperHero</span>
    Counters:
     url: shortcodes-counters.html
-    cssclass: tip tip-secondary
+    extrahtml: <span class="tip tip-secondary">SuperHero</span> 
    Sections & Parallax:
     url: shortcodes-sections-parallax.html
-    cssclass: tip tip-secondary
+    extrahtml: <span class="tip tip-secondary">SuperHero</span>
    Tooltips & Popovers:
     url: shortcodes-tooltips-popovers.html
-    cssclass: tip tip-secondary
+    extrahtml: <span class="tip tip-secondary">SuperHero</span>
    Sticky Elements:
     url: shortcodes-sticky-elements.html
-    cssclass: tip tip-secondary
+    extrahtml: <span class="tip tip-secondary">SuperHero</span>
  Interactions 4:
    Headings:
     url: shortcodes-headings.html
@@ -116,13 +117,13 @@ Interactions:
     url: shortcodes-dividers.html
    Animations:
     url: shortcodes-animations.html   
-    cssclass: tip tip-secondary
+    extrahtml: <span class="tip tip-secondary">SuperHero</span>
    Medias:
     url: shortcodes-medias.html
-    cssclass: tip tip-secondary
+    extrahtml: <span class="tip tip-secondary">SuperHero</span>
    Maps:
     url: shortcodes-maps.html
-    cssclass: tip tip-secondary
+    extrahtml: <span class="tip tip-secondary">SuperHero</span>
    Arrows:
     url: shortcodes-arrows.html
    Alerts:
@@ -135,8 +136,8 @@ Page Elements:
   url: #
   Default:
    url: index-classic.html
-   Flat:
-    url: #
+  Flat:
+    url: "#"
     Flat:
      url: index-header-flat.html
     Flat + Top Bar:
@@ -166,6 +167,8 @@ Page Elements:
     url: index-header-semi-transparent.html
    Semi Transparent - Light:
     url: index-header-semi-tranparent-light.html
+  Full-Width:
+    url: index-header-full-width.html
   Navbar:
    url: #
    Navbar:
@@ -230,11 +233,12 @@ Page Elements:
     url: index-page-header-custom-background.html
   Parallax:
     url: index-page-header-parallax.html
-    cssclass: tip tip-secondary
+    extrahtml: <span class="tip tip-secondary">SuperHero</span>
   Center:
     url: index-page-header-center.html
  Sliders:
     url: "#"
+    extrahtml: <span class="tip tip-secondary">SuperHero</span>
     Revolution Slider:
      url: index-classic.html
     Nivo Slider:
@@ -263,7 +267,7 @@ Pages:
   url: "#"
   Shop - Full Width:
    url: shop-full-width.html
-   cssclass: tip tip-secondary
+   extrahtml: <span class="tip tip-secondary">SuperHero</span>
   Shop - Sidebar:
    url: shop-sidebar.html
   Shop - Product Full Width:
@@ -276,7 +280,7 @@ Pages:
    url: shop-checkout.html
  Blog:
   url: "#"
-  #cssclass: tip tip-primary
+  extrahtml: <span class="tip tip-primary">Hero</span>
   Blog Full Width:
    url: blog-full-width.html
   Blog Large Image:
