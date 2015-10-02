@@ -1,0 +1,41 @@
+<nav>
+
+<ul class="nav nav-pills" id="mainNav">
+  <% data.menu.each do |key, value| %>
+		<li class="dropdown<% if current_page.path == value.url %> active<% end %>">
+			<a class="dropdown-toggle" href="<%= value.url %>"><%= key %></a>
+			<% if value.count > 1 %>
+			 <ul class="dropdown-menu">
+			 	<% value.each do |subkey, subvalue| %>
+			 		<% next if subkey == 'url'  %>
+			 		<% if subvalue.count > 1 %>
+						<li class="dropdown-submenu">
+							<a href="<%= subvalue.url %>"><%= subkey %></a>
+			 				<ul class="dropdown-menu">
+			 		<% else %>
+			 			<li>
+							<a href="<%= subvalue.url %>"><%= subkey %><% if subvalue.extrahtml %> <%= subvalue.extrahtml%><% end %></a>
+						</li>
+					<% end %>
+			 		
+					<% if subvalue.count > 1 %>
+							<% subvalue.each do |thirdkey, thirdvalue| %>
+								<% next if thirdkey == 'url' %>
+								<% next if thirdkey == 'extrahtml' %>
+								<li><a href="<%= thirdvalue.url %>"><%= thirdkey %>
+									<% if thirdvalue.cssclass %>
+										<% if thirdvalue.cssclass.include? "tip-primary" %><span class="tip tip-primary">Hero</span> <% end %> 
+										<% if thirdvalue.cssclass.include? "tip-secondary" %><span class="tip tip-secondary">SuperHero</span> <% end %> 
+									<% end %>
+									<% if thirdvalue.extrahtml %> <%= thirdvalue.extrahtml%><% end %>
+								</a></li>
+							<% end %>
+						</ul>
+					<% end %>
+				<% end %>
+			</ul>
+			<% end %>
+		</li>
+  	<% end %>
+ </ul>
+</nav>
