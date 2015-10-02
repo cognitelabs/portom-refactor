@@ -5,7 +5,11 @@
 				<div class="header-column">
 					<div class="header-logo">
 						<a href="index.html">
-							<img alt="Porto" data-sticky-width="82" data-sticky-height="40" data-sticky-top="33" src="img/logo.png">
+							<% if data.site.defaults.logourl %>							
+							<img alt="<%= data.site.defaults.companyname %>" data-sticky-width="82" data-sticky-height="40" data-sticky-top="33" src="<%= data.site.defaults.logourl %>">
+							<% else %>
+								<span style="height:32px; display:inline-block; margin-bottom: 24px; margin-right: 24px; margin-top: 24px;" data-sticky-width="82" data-sticky-height="40" data-sticky-top="33"> Home</span>
+							<% end %>
 						</a>
 					</div>
 				</div>
@@ -28,9 +32,11 @@
 							<li class="hidden-xs">
 								<a href="contact-us.html"><i class="fa fa-angle-right"></i> Contact Us</a>
 							</li>
+							<% if data.site.defaults.businessphone %>
 							<li>
-								<span class="ws-nowrap"><i class="fa fa-phone"></i> (123) 456-7890</span>
+								<span class="ws-nowrap"><i class="fa fa-phone"></i> <%= data.site.defaults.businessphone %></span>
 							</li>
+							<% end %>
 						</ul>
 					</nav>
 				</div>

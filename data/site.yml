@@ -14,3 +14,5 @@ defaults:
  businessemail: false
  showlatesttweets: false
  shownewslettersignup: false
+ logourl: false
+ companyname: false
