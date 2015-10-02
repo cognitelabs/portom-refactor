@@ -45,6 +45,17 @@ end
    def page_or_default(variable)
      current_page.data[variable] || data.site.defaults[variable]
    end
+
+   def is_parent_menu(menuItem)
+     dataCount = 0
+     if menuItem.key?("url") 
+      dataCount = dataCount + 1
+    end
+     if menuItem.key?("extrahtml") 
+      dataCount = dataCount + 1
+    end
+     return menuItem.count > dataCount
+   end
  end
 
 set :css_dir, 'stylesheets'

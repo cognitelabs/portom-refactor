@@ -215,7 +215,10 @@ Page Elements:
   Contact Form:
     url: "index-footer-contact-form.html#footer"
  Page Headers:
+  url: "#"
   Default:
+   url: "#"
+  Colors:
     url: "#"
     Primary Color:
      url: "index-page-header-color-primary.html"
@@ -265,9 +268,9 @@ Pages:
  url: "#"
  Shop:
   url: "#"
+  extrahtml: <span class="tip tip-secondary">SuperHero</span>
   Shop - Full Width:
    url: shop-full-width.html
-   extrahtml: <span class="tip tip-secondary">SuperHero</span>
   Shop - Sidebar:
    url: shop-sidebar.html
   Shop - Product Full Width:
@@ -277,6 +280,8 @@ Pages:
   Shop - Cart:
    url: shop-cart.html
   Shop - Login:
+   url: shop-login.html
+  Shop - Checkout:
    url: shop-checkout.html
  Blog:
   url: "#"
@@ -303,9 +308,10 @@ Pages:
    url: page-left-and-right-sidebars.html
   Sticky Sidebar:
    url: page-sticky-sidebar.html
-   extrahtml: <span class="tip tip-primary">Hero</span>ip tip-primary
+   extrahtml: <span class="tip tip-primary">Hero</span>
  Extra:
    url: "#"
+   extrahtml: <span class="tip tip-primary">Hero</span>
    404 Error:
     url: page-404.html
    Coming Soon:
@@ -328,6 +334,7 @@ Pages:
   url: page-faq.html
 Portfolio: 
   url: "#"
+  extrahtml: <span class="tip tip-primary">Hero</span>
   4 Columns:
    url: portfolio-4-columns.html
   3 Columns:
