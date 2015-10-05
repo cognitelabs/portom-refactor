@@ -5518,7 +5518,7 @@ section.timeline .timeline-box .owl-carousel {
 
 /* Arrows */
 .arrow {
-	background: transparent url(../img/arrows.png) no-repeat 0 0;
+	background: transparent url(/images/arrows.png) no-repeat 0 0;
 	width: 47px;
 	height: 120px;
 	display: inline-block;
