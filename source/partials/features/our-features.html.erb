@@ -1,0 +1,91 @@
+<section id="features">
+	<div class="container">
+		<div class="row mb-md mt-xlg">
+			<div class="col-md-8">
+				<h2>Our <strong>Features</strong></h2>
+				<div class="row">
+					<% secondgroup = data.features.clone %> 
+					<% i = 0 %>
+					<% iend = secondgroup.length %>
+					<% iend = (iend /2.to_f).ceil %>
+					<% firstgroup = Hash.new() %>
+					<% while i < iend  %>
+						<% firstitem = secondgroup.first %>
+						<% firstgroup[firstitem[0]] = firstitem[1] %>
+						<% secondgroup.delete(firstitem[0]) %>
+						<% i = i + 1%>
+					<% end %>
+
+					<% featuregroup = [firstgroup, secondgroup] %>
+					<% featuregroup.each do | groupvalue | %>
+
+					<div class="col-sm-6">
+						<% groupvalue.each do| key, value| %>
+						<div class="feature-box">
+							<div class="feature-box-icon">
+								<i class="fa <%= value.icon %>"></i>
+							</div>
+							<div class="feature-box-info">
+								<h4 class="heading-primary mb-none"><%= key %></h4>
+								<p class="tall"><%= value.description %></p>
+							</div>
+						</div>
+						<% end %>
+					</div>
+					<% end %>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<h2>and more...</h2>
+
+				<div class="panel-group" id="accordion">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+									<i class="fa fa-usd"></i>
+									Pricing Tables
+								</a>
+							</h4>
+						</div>
+						<div id="collapseOne" class="accordion-body collapse in">
+							<div class="panel-body">
+								Donec tellus massa, tristique sit amet condim vel, facilisis quis sapien. Praesent id enim sit amet odio vulputate eleifend in in tortor.
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+									<i class="fa fa-comment"></i>
+									Contact Forms
+								</a>
+							</h4>
+						</div>
+						<div id="collapseTwo" class="accordion-body collapse">
+							<div class="panel-body">
+								Donec tellus massa, tristique sit amet condimentum vel, facilisis quis sapien.
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+									<i class="fa fa-laptop"></i>
+									Portfolio Pages
+								</a>
+							</h4>
+						</div>
+						<div id="collapseThree" class="accordion-body collapse">
+							<div class="panel-body">
+								Donec tellus massa, tristique sit amet condimentum vel, facilisis quis sapien.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
