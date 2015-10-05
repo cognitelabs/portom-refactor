@@ -1,0 +1,32 @@
+John Doe:
+ title: CEO
+ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan
+ facebook: test
+ twitter: johndoe
+ linkedin:
+ link: /about/
+ picture: /images/team/team-1.jpg
+Jessica Doe:
+ title: Marketing
+ description: Aenean ultrices feugiat ante ut malesuada. Nulla hendrerit nibh nec mi blandit, a sollicitudin.
+ facebook:
+ twitter:
+ linkedin:
+ link:
+ picture: /images/team/team-2.jpg
+Rick Edward Doe:
+ title: Developer
+ description: Aliquam tincidunt eros imperdiet justo iaculis pharetra sed id velit. Pellentesque et libero eros.
+ facebook:
+ twitter:
+ linkedin:
+ link:
+ picture: /images/team/team-3.jpg
+Melinda Wolosky:
+ title: Design
+ description: Etiam eget egestas mauris, et rhoncus odio. Curabitur consectetur cursus quam, interdum euismod enim.
+ facebook:
+ twitter:
+ linkedin:
+ link:
+ picture: /images/team/team-4.jpg
