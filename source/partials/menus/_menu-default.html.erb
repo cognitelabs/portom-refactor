@@ -7,8 +7,10 @@
 <ul class="nav nav-pills" id="mainNav">
   <% menu.each do |key, value| %>
 		<li class="dropdown<% if current_page.path == value.url %> active<% end %>">
-			<a class="dropdown-toggle" href="<%= value.url %>"><%= key %><% if value.extrahtml %> <%= value.extrahtml%><% end %></a>
-			<% if is_parent_menu(value) %>
+			<% hasSubs = is_parent_menu(value) %>
+
+			<a class="<% if hasSubs %>dropdown-toggle<% end %>" href="<%= value.url %>"><%= key %><% if value.extrahtml %> <%= value.extrahtml%><% end %></a>
+			<% if hasSubs %>
 			 <ul class="dropdown-menu">
 			 	<% value.each do |subkey, subvalue| %>
 			 		<% next if subkey == 'url'  %>
