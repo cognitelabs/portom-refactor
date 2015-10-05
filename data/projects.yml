@@ -1,0 +1,21 @@
+Curabitur placerat ipsum ac purus accumsan :
+ thumbnail: /images/projects/project.jpg
+ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris.
+ clientname: SEO
+ projecttype: Website
+ livelink: http://www.google.com
+ services:
+  - Design
+  - HTML/CSS
+  - JavaScript
+
+Lorem ipsum dolor sit amet:
+ thumbnail: /images/projects/project.jpg
+ description: Duis est orci, finibus a scelerisque quis, pellentesque quis magna. Suspendisse ut pellentesque odio. Pellentesque semper nisl ut magna efficitur consequat. Pellentesque eu facilisis augue. Mauris lobortis enim diam, nec mattis dui vulputate ut. Vestibulum ante.
+ clientname: Okler
+ projecttype: Brand
+ livelink: http://www.google.com
+ services:
+  - SEO
+  - Design
+  - Blah
