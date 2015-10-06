@@ -1,21 +1,55 @@
-Curabitur placerat ipsum ac purus accumsan :
- thumbnail: /images/projects/project.jpg
- description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elit mattis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris.
- clientname: SEO
+Ingham Health Plan Corporation :
+ thumbnail: /images/custom/ihpmi-framed.jpg
+ description: Ingham Health Plan Corporation needed to quickly consolidate three websites into one website to simplify their branding and external communications. We helped them select the appropriate platform for their infrastructure, helped them organized the overwhelming amount of information they had, and created a mobile first design for them. This entire project took 10 weeks.
+ clientname: IHPC
  projecttype: Website
- livelink: http://www.google.com
+ livelink: http://www.ihpmi.org
  services:
-  - Design
+  - Mobile First Design
+  - Competitive Analysis
   - HTML/CSS
   - JavaScript
+  - .NET Coding
 
-Lorem ipsum dolor sit amet:
- thumbnail: /images/projects/project.jpg
- description: Duis est orci, finibus a scelerisque quis, pellentesque quis magna. Suspendisse ut pellentesque odio. Pellentesque semper nisl ut magna efficitur consequat. Pellentesque eu facilisis augue. Mauris lobortis enim diam, nec mattis dui vulputate ut. Vestibulum ante.
- clientname: Okler
- projecttype: Brand
- livelink: http://www.google.com
+Krajniak Capital Management:
+ thumbnail: /images/custom/cognite-labs-kcm-website.jpg
+ description: KCM needed a mobile friendly, responsive, highly available website and fast. They were launching a new line of business and their website is a critical part of their go to market strategy. As a highly regulated financial firm KCM has strict compliance requirements that we were able to help them meet.
+ clientname: KCM
+ projecttype: Website
+ livelink: http://www.kcmria.net
  services:
-  - SEO
-  - Design
-  - Blah
+  - Website Design
+  - Email Marketing
+  - Regulatory Compliance
+
+Startup Lansing:
+ thumbnail: /images/custom/cognite-labs-startup-lansing-website.jpg
+ description: Startup Lansing needed a website to have a local presence in the Lansing community. Their website helps them educate, connect, and promote Lansing area businesses. Their website helps them do this in a cost effective manner.
+ clientname: Startup Lansing
+ projecttype: Website
+ livelink: http://startuplansing.org/
+ services:
+  - Website Design
+  - Marketing Automation
+  - Micro Analytics
+
+Cork CRM:
+ thumbnail: /images/custom/cognite-labs-cork-crm-website.jpg
+ description: Cork CRM delivers next generation softare for painting contractors. As a Software as a Service company, Cork needed a website to help them acquire new customers.
+ clientname: Cork CRM
+ projecttype: Website
+ livelink: http://www.corkcrm.com/
+ services:
+  - Website Design
+  - Marketing Automation
+  - Micro Analytics
+
+Craig Mitchell Smith Glass:
+ thumbnail: /images/custom/cognite-labs-craig-mitchell-smith-glass-website.jpg
+ description: Craig Mitchell Smith Glass is the premiere fuse glass blown artist. Unfortunately his website did not align with his brand. With a big show coming up he needed a website that reflected his brand fast! We were able to deliver his website in eight weeks.
+ clientname: CMS Glass
+ projecttype: Website
+ livelink: http://www.craigmitchellsmith.com/
+ services:
+  - Competitive Analysis
+  - Website Design
