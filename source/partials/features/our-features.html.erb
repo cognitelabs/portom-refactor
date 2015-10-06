@@ -21,7 +21,7 @@
 
 					<div class="col-sm-6">
 						<% groupvalue.each do| key, value| %>
-						<div class="feature-box">
+						<div class="feature-box<% if current_page.data.featureboxstyle %> <%= current_page.data.featureboxstyle%><% end %>">
 							<div class="feature-box-icon">
 								<i class="fa <%= value.icon %>"></i>
 							</div>
