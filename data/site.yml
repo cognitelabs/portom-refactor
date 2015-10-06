@@ -16,3 +16,4 @@ defaults:
  shownewslettersignup: false
  logourl: false
  companyname: ACME co.
+ googleanalytics: false
