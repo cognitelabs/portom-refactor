@@ -1796,7 +1796,7 @@ section.section.section-overlay {
 section.section.section-overlay:before {
 	content: "";
 	display: block;
-	background: url("../img/video-overlay.png") repeat scroll 0 0 transparent;
+	background: url("/images/video-overlay.png") repeat scroll 0 0 transparent;
 	bottom: 0;
 	height: 100%;
 	left: 0;
