@@ -5,7 +5,6 @@
 				<h2>Meet the <strong>Team</strong></h2>
 			</div>
 		</div>
-
 		<% data.team.each do | key, value| %>
 		<div class="row mb-xlg">
 			<div class="col-md-3 col-sm-6 col-xs-12">
@@ -26,17 +25,16 @@
 								<a target="_blank" href="http://www.facebook.com/<%= value.facebook %>"><i class="fa fa-facebook"></i><span>Facebook</span></a>
 							<% end %>
 							<% if value.twitter %>
-								<a href="http://www.twitter.com"><i class="fa fa-twitter"></i><span>Twitter</span></a>
+								<a href="http://www.twitter.com/<%= value.twitter %>"><i class="fa fa-twitter"></i><span>Twitter</span></a>
 							<% end %>
 							<% if value.linkedin %>
-								<a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i><span>Linkedin</span></a>
+								<a href="<%= value.linkedin %>"><i class="fa fa-linkedin"></i><span>Linkedin</span></a>
 							<% end %>
 						</span>
 					</span>
 				</span>
 			</div>
 			<% end %>
-			
 		</div>
 	</div>
 </section>
