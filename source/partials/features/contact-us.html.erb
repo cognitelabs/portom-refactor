@@ -12,7 +12,7 @@
 						</div>
 
 						<h2 class="mb-sm mt-sm"><strong>Contact</strong> Us</h2>
-						<form id="contactForm" action="php/contact-form.php" method="POST">
+						<form id="contactForm" action="http://emailrouter.cognitelabs.com/user/<%= data.site.defaults.cognitelabsemailtoken %>" method="POST">
 							<div class="row">
 								<div class="form-group">
 									<div class="col-md-6">
@@ -22,14 +22,6 @@
 									<div class="col-md-6">
 										<label>Your email address *</label>
 										<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email" required>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="form-group">
-									<div class="col-md-12">
-										<label>Subject</label>
-										<input type="text" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" id="subject" required>
 									</div>
 								</div>
 							</div>
