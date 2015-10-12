@@ -56,6 +56,15 @@ end
     end
      return menuItem.count > dataCount
    end
+
+   def landing_page_link
+    link = "blah"
+    link = current_page.data["landing_page_link"] || data.site.defaults["landing_page_link"]
+    if link.end_with? current_page.path
+      link = data.site.defaults["buy_now"]
+    end
+    return link
+   end
  end
 
 set :css_dir, 'stylesheets'
