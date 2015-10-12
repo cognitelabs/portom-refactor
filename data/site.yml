@@ -3,8 +3,8 @@ defaults:
  description: We build mobile, secure, fast, reliable websites for small business owners.
  keywords: mobile websites, fast, secure, static sites, wordpress
  author: Cognite Labs
- favicon: /images/favicon.ico
- appletouchicon: /images/apple-touch-icon.png
+ favicon: /images/custom/favico.jpg
+ appletouchicon: /images/custom/favico.jpg
  fonts: http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light
  facebookurl: false
  twitterurl: https://twitter.com/cognitelabs
@@ -12,8 +12,10 @@ defaults:
  businessaddress: 325 E Grand River East Lansing MI 48823
  businessphone: 517.529.2641
  businessemail: hello@cognitelabs.com
- showlatesttweets: true
- shownewslettersignup: false
- logourl: false
- companyname: ACME co.
- googleanalytics: false
+ showlatesttweets: false
+ shownewslettersignup: true
+ logourl: /images/custom/cognite_labs-logo.png
+ companyname: Cognite Labs
+ googleanalytics: UA-42323149-1
+ deployroot: http://www.cognitelabs.com
+ cognitelabsemailtoken: 8c69da98-57c5-4324-8742-e67342626c11

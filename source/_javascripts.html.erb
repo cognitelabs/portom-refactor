@@ -39,7 +39,7 @@
 <!-- Theme Initialization Files -->
 <script src="javascripts/theme.init.js"></script>
 
-<% if data.site.defaults.googleanalytics %>
+<% if data.site.defaults.googleanalytics && build? %>
 	<script type="text/javascript">
 
 		var _gaq = _gaq || [];
