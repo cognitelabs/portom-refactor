@@ -1,31 +1,16 @@
 <section class="section section-primary mb-none">
 	<div class="container">
 		<div class="row">
+
 			<div class="counters counters-text-light">
-				<div class="col-md-3 col-sm-6">
-					<div class="counter">
-						<strong data-to="18000" data-append="+">0</strong>
-						<label>Happy Clients</label>
+				<% data.counters.each do |key, value| %>
+					<div class="col-md-3 col-sm-6">
+						<div class="counter">
+							<strong data-to="<%= value.value %>"<%if value.append%>data-append="<%= value.append %>"<% end%>>0</strong>
+							<label><%= value.label %></label>
+						</div>
 					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="counter">
-						<strong data-to="15">0</strong>
-						<label>Years in Business</label>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="counter">
-						<strong data-to="352">0</strong>
-						<label>Cups of Coffee</label>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="counter">
-						<strong data-to="178">0</strong>
-						<label>High Score</label>
-					</div>
-				</div>
+				<% end %>
 			</div>
 		</div>
 	</div>
