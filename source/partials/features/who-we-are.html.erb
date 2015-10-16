@@ -2,42 +2,23 @@
 	<div class="row mt-xlg">
 		<div class="col-md-5">
 			<h2><strong>Who</strong> We Are</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. </p>
+			<p>Helpful, tech-savvy, curious small business owners. We know tech can be hard to use and frustrating. Consumers have high demands for businesses technology. We know the last thing you 
+				want is your already busy day to be hijacked by the call that your website is down or has been hacked. We work hard to make your website mobile-friendly, fast, and secure. </p>
 		</div>
 		<div class="col-md-7">
 			<div class="progress-bars">
+				<% data.progress.each do | key, value| %>
+
 				<div class="progress-label">
-					<span>HTML/CSS</span>
+					<span><%= key %></span>
 				</div>
 				<div class="progress">
-					<div class="progress-bar progress-bar-primary" data-appear-progress-animation="100%">
-						<span class="progress-bar-tooltip">100%</span>
+					<div class="progress-bar progress-bar-primary" data-appear-progress-animation="<%= value %>">
+						<span class="progress-bar-tooltip"><%= value %></span>
 					</div>
 				</div>
-				<div class="progress-label">
-					<span>Design</span>
-				</div>
-				<div class="progress">
-					<div class="progress-bar progress-bar-primary" data-appear-progress-animation="85%" data-appear-animation-delay="300">
-						<span class="progress-bar-tooltip">85%</span>
-					</div>
-				</div>
-				<div class="progress-label">
-					<span>WordPress</span>
-				</div>
-				<div class="progress">
-					<div class="progress-bar progress-bar-primary" data-appear-progress-animation="75%" data-appear-animation-delay="600">
-						<span class="progress-bar-tooltip">75%</span>
-					</div>
-				</div>
-				<div class="progress-label">
-					<span>Photoshop</span>
-				</div>
-				<div class="progress">
-					<div class="progress-bar progress-bar-primary" data-appear-progress-animation="85%" data-appear-animation-delay="900">
-						<span class="progress-bar-tooltip">85%</span>
-					</div>
-				</div>
+
+				<% end %>
 			</div>
 		</div>
 	</div>
