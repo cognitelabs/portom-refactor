@@ -4,39 +4,32 @@
 			<div class="row center">
 				<span class="sun"></span>
 				<span class="cloud"></span>
-				<div class="col-md-2 col-md-offset-1">
-					<div class="process-image" data-appear-animation="bounceIn">
-						<img src="images/landing-concept-item-1.png" alt="" />
-						<strong class="text-color-dark mb-xs">Icons</strong>
-						<p class="text-color-primary mb-xl">500+ Icons</p>
-					</div>
-				</div>
-				<div class="col-md-2">
-					<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="200">
-						<img src="images/landing-concept-item-2.png" alt="" />
-						<strong class="text-color-dark mb-xs">Buttons</strong>
-						<p class="text-color-primary mb-xl">Several Styles</p>
-					</div>
-				</div>
-				<div class="col-md-2">
-					<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="400">
-						<img src="images/landing-concept-item-3.png" alt="" />
-						<strong class="text-color-dark mb-xs">Images</strong>
-						<p class="text-color-primary mb-xl">Animated Boxes</p>
-					</div>
-				</div>
-				<div class="col-md-4 col-md-offset-1">
-					<div class="project-image">
-						<div id="fcSlideshow" class="fc-slideshow">
-							<ul class="fc-slides">
-								<li><img class="img-responsive" src="images/landing-concept-item-4.png" alt="" /></li>
-								<li><img class="img-responsive" src="images/landing-concept-item-5.png" alt="" /></li>
-								<li><img class="img-responsive" src="images/landing-concept-item-6.png" alt="" /></li>
-							</ul>
+				<% animationDelay = 0
+				data.process.each do | key, value |
+				 if value.md == 4 %>
+					<div class="col-md-4 col-md-offset-1">
+						<div class="project-image">
+							<div id="fcSlideshow" class="fc-slideshow">
+								<ul class="fc-slides">
+									<% value.image.each do | imagePath | %>
+										<li><img class="img-responsive" src="<%= imagePath %>" alt="" /></li>
+									<% end %>
+								</ul>
+							</div>
+							<strong class="text-color-dark pt-xl">and so much more...</strong>
 						</div>
-						<strong class="text-color-dark pt-xl">and so much more...</strong>
 					</div>
-				</div>
+				<% else %>
+					<div class="col-md-2">
+						<div class="process-image" data-appear-animation="bounceIn" data-appear-animation-delay="<%= animationDelay %>">
+							<img src="<%= value.image%>" alt="<%= key %>" />
+							<strong class="text-color-dark mb-xs"><%= key %></strong>
+							<p class="text-color-primary mb-xl"><%= value.benefit %></p>
+						</div>
+					</div>
+				 <% end 
+				 animationDelay = animationDelay + 200
+				end %>
 			</div>
 		</div>
 	</div>
