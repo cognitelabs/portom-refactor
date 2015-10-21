@@ -24,6 +24,12 @@
 #   page "/admin/*"
 # end
 
+with_layout :bloglayout do
+  #url = "/blog/*"
+  #page "/blog/*", :headers => config[:bloglayout].headers 
+end
+
+
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
@@ -34,6 +40,41 @@
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
+
+activate :directory_indexes
+
+activate :blog do |blog|
+  blog.permalink = "/{title}/"
+  blog.taglink = "blog/:tag.html"
+  blog.year_link = "blog/{year}/"
+  blog.month_link = "blog/{year}/{month}/"
+  blog.day_link = "blog/{year}/{month}/{day}/"
+  blog.sources = "blog/{year}-{month}-{day}-{title}.html"
+  #blog.year_template = "blog/calendar-year.html"
+  blog.month_template = "blog/calendar.html"
+  #blog.day_template = "blog/calendar-day.html"
+  
+  
+  blog.layout = "bloglayout"
+  
+  blog.tag_template = "blog/tag.html"
+
+  #blog.calendar_template = "blog/calendar.html"
+
+  # This will add a prefix to all links, template references and source paths
+  # blog.prefix = "blog"
+
+  # Matcher for blog source files
+  # blog.sources = "{year}-{month}-{day}-{title}.html"
+  # blog.summary_separator = /(READMORE)/
+  # blog.summary_length = 250
+  # blog.default_extension = ".markdown"
+
+  # Enable pagination
+  # blog.paginate = true
+  # blog.per_page = 10
+  # blog.page_link = "page/{num}"
+end
 
 # Reload the browser automatically whenever files change
 configure :development do
@@ -58,7 +99,7 @@ end
    end
 
    def landing_page_link
-    link = "blah"
+    link = "unset-check-config.rb"
     link = current_page.data["landing_page_link"] || data.site.defaults["landing_page_link"]
     if link.end_with? current_page.path
       link = data.site.defaults["buy_now"]
