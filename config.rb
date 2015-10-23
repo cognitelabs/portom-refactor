@@ -45,24 +45,25 @@ activate :directory_indexes
 
 activate :blog do |blog|
   blog.permalink = "/{title}/"
-  blog.taglink = "blog/:tag.html"
-  blog.year_link = "blog/{year}/"
-  blog.month_link = "blog/{year}/{month}/"
-  blog.day_link = "blog/{year}/{month}/{day}/"
-  blog.sources = "blog/{year}-{month}-{day}-{title}.html"
+  blog.taglink = ":tag/"
+  blog.year_link = "{year}/"
+  blog.month_link = "{year}/{month}/"
+  blog.day_link = "{year}/{month}/{day}/"
+  blog.sources = "{year}-{month}-{day}-{title}.html"
   #blog.year_template = "blog/calendar-year.html"
-  blog.month_template = "blog/calendar.html"
+  blog.month_template = "/blog/calendar.html"
   #blog.day_template = "blog/calendar-day.html"
   
   
   blog.layout = "bloglayout"
   
   blog.tag_template = "blog/tag.html"
+  blog.paginate = true
 
   #blog.calendar_template = "blog/calendar.html"
 
   # This will add a prefix to all links, template references and source paths
-  # blog.prefix = "blog"
+   blog.prefix = "blog"
 
   # Matcher for blog source files
   # blog.sources = "{year}-{month}-{day}-{title}.html"
@@ -71,7 +72,7 @@ activate :blog do |blog|
   # blog.default_extension = ".markdown"
 
   # Enable pagination
-  # blog.paginate = true
+   
   # blog.per_page = 10
   # blog.page_link = "page/{num}"
 end
@@ -83,9 +84,9 @@ end
 
 # Methods defined in the helpers block are available in templates
  helpers do
-   def page_or_default(variable)
-     current_page.data[variable] || data.site.defaults[variable]
-   end
+     def page_or_default(variable)
+       current_page.data[variable] || data.site.defaults[variable]
+     end
 
    def is_parent_menu(menuItem)
      dataCount = 0

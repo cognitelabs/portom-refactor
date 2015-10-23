@@ -19,5 +19,5 @@ defaults:
  googleanalytics: UA-42323149-1
  deployroot: http://www.cognitelabs.com
  cognitelabsemailtoken: 8c69da98-57c5-4324-8742-e67342626c11
- landing_page_link: /landing-page.html
- buy_now: /buy-now.html
+ landing_page_link: /landing-page/
+ buy_now: /buy-now/
