@@ -1,0 +1,72 @@
+---
+title: It's Not Just Business...It's Personal
+date: 2015-02-09
+---
+<article itemscope itemtype="http://schema.org/Blog"> 
+<div class="container outside"> 
+ <div class="featured-post" style="background-image: url(&quot;//cdn2.hubspot.net/hub/440551/file-2449772206-jpg/thankyoucard.jpg?t=1441046336424&quot;);"> 
+  <div class="overlay"></div> 
+  <div class="row-fluid"> 
+   <span class="latest-post"> Latest from <span id="title" itemprop="name">the CogBlog</span> </span> 
+  </div> 
+  <header class="featured-header"> 
+   <div class="row-fluid"> 
+    <div class="span2"></div> 
+    <div class="span8"> 
+     <div class="row-fluid"> 
+      <div class="span12 author">
+        by 
+       <span class="author-name" itemprop="author"><a class="author-link" href="http://www.cognitelabs.com/blog/author/allison-monroe" itemprop="url"></a> <span itemprop="name">Allison Monroe</span></span> on 
+       <span class="publish-date" itemprop="datePublished"> February 9</span> 
+      </div> 
+     </div> 
+     <hgroup class="row-fluid"> 
+      <h1 class="latest-title" itemprop="headline"> <a href="../../../../com/cognitelabs/www/blog/its-not-just-business-its-personal.html" itemprop="url"> <span id="hs_cos_wrapper_name" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="text">It's Not Just Business...It's Personal</span> </a> </h1> 
+      <h2 class="post-synopsis" itemprop="alternativeHeadline"> <span id="hs_cos_wrapper_post_synopsis" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="text">Creating Personas Helps You to Stay Focused on the One Person that Matters Most: Your Customer.</span> </h2> 
+     </hgroup> 
+     <div class="row-fluid"> 
+      <span class="tags" itemprop="keywords"> <a href="http://www.cognitelabs.com/blog/topic/design" class="topic-tag">Design</a> <a href="http://www.cognitelabs.com/blog/topic/growth" class="topic-tag">Growth</a> <a href="http://www.cognitelabs.com/blog/topic/marketing" class="topic-tag">Marketing</a> </span> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+ </div> 
+</div> 
+<section class="blog-section" itemscope itemtype="http://schema.org/Blog"> 
+ <div class="blog-post-wrapper cell-wrapper"> 
+  <header class="section post-header"> 
+  </header> 
+  <div class="section post-body"> 
+   <section itemprop="text"> 
+    <span id="hs_cos_wrapper_post_body" class="hs_cos_wrapper hs_cos_wrapper_meta_field hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="meta_field" data-hs-cos-type="rich_text"><p dir="ltr"><span>Imagine yourself as a patron at a new restaurant. It?s probably not hard, we?ve all been there.</span></p> <p dir="ltr"><span>Now, imagine two different scenarios; </span></p> 
+     <!--more--> <p dir="ltr"><span>You get seated right away, greeted with a smile and your server approaches you immediately. Your order is promptly brought to your table, prepared just like you asked and your water glass is never too empty. You enjoy both the meal and the service; you leave satisfied.</span></p> <p dir="ltr"><strong>Or:</strong></p> <p dir="ltr"><span>You wait 30 minutes for a table, even though the restaurant isn?t crowded. It takes even longer for your server to get your table and when they do, he or she is rushed and clearly annoyed. After bringing your food, which is poorly prepared and cold, you don?t see your server until it?s time for the check. It takes entirely too long to pay the bill and you leave feeling frustrated and swear never to return. </span></p> <p dir="ltr"><span>Now, which encounter is going to stick with you the most? Scenario number one might bring you back to the restaurant and you might even tell friend or two. But scenario two, and the anger it evokes is more likely to encourage you to spread the word, to voice your dissatisfaction everywhere, including the world wide web. </span></p> <p dir="ltr"><span>And a scathing online review could deter hundreds, or more, new customers. </span></p> <p dir="ltr"><span>Considering that <a href="(http://boast.io/customer-review-statistics/)">90% of customers have admitted that their decisions are affected by online reviews</a>, do businesses really want to take that chance? </span></p> <p dir="ltr"><span>So, why does the second scenario stick with many of us more than the first, when we clearly enjoyed the first more? Because it goes against everything we expect as customers. &nbsp;When we are handing our money over to a business, we expect decent service. As a customer, we expect the business to deliver interactions that will bring us back, but as humans we want to be </span><span>heard. </span><span>&nbsp;We want to be </span><span>seen. </span><span>We want to be </span><span>understood. </span><span>&nbsp;</span></p> <p dir="ltr"><span>When a business or corporation shows empathy toward its customers, to us they are saying, "We get you." And that can make all the difference.</span></p> <h1 dir="ltr"><span>It?s </span><span>Not</span><span> Personal??</span></h1> 
+     <div dir="ltr" style="text-align: center;">
+      <em>"What is so wrong with being personal anyway? Whatever else anything is, it oughta begin by being personal?" </em>
+     </div> 
+     <div dir="ltr" style="text-align: center;">
+      <em>-Kathleen Kelly, "You've Got Mail."</em>
+     </div> <p dir="ltr">Business Strategist, Dev Patnaik, in his book <a href="http://www.amazon.com/Wired-Care-Companies-Prosper-Widespread/dp/013714234X/ref=sr_1_1?ie=UTF8&amp;qid=1423169173&amp;sr=8-1&amp;keywords=wired+to+care">"Wired to Care,"</a> states that when those working in a corporate structure turn up for work, they leave half their brains - the part geared toward emotion - behind and are taught to repeat the mantra, ?It's not personal, it's business.?</p> <p dir="ltr"><span>But, I suspect that many of us resonate with Kathleen Kelly in ?You?ve Got Mail.? Maybe ?business? isn?t where business should begin. </span></p> <p dir="ltr"><span>Certainly in our highly "social" world, where businesses are no longer faceless entities, but detailed profiles that reach out to us on a daily basis and that we can connect with at the click of a mouse, things </span><span>are</span><span> personal. And, as Kelly says, what's so wrong with being personal, anyway? </span></p> <h2 dir="ltr"><span>Getting Personal</span></h2> <p dir="ltr"><span>When my husband and I took his parents to see a show as their Christmas present, we went to a theater we had never heard of. It was an enjoyable experience and we loved the performance but we may not have returned to that theater again, or even remembered the name of it, had it not been for what happened a few days after the performance. </span></p> <p dir="ltr"><span>A handwritten envelope appeared in our mailbox addressed to my husband and since I didn't recognize the sender name, I set it aside for him. The envelope, it turned out, contained a handwritten, personalized, thank you note from the staff of the theater expressing their gratitude to us for choosing their venue and asking us to keep them in mind for future performances. It was signed (</span><span>actually</span><span> signed, not stamped) by all the staff members. He showed it to me and we were both in such shock that we talked about it for a good ten minutes, told a number of people and he even took the note in to show his employees. </span></p> <p dir="ltr"><span>We will now always remember the name of the theater and when we want to go see a show again it will be one of the first places we check. It may have taken the staff some extra time to prepare the card by hand rather than printing them in bulk and stamping their names on, but the impact it made was priceless. </span></p> <h1 dir="ltr"><span>Business IS Personal</span></h1> <p dir="ltr"><span>So, why did it feel so good to get that card? Because we knew that the theater saw us as more than a ticket number, more than a sale. They realized that we were human beings that chose to spend our hard-earned money at their establishment and they were grateful for that because hey, they are human too. When customers realize that a company feels empathy toward them and understands where they are coming from, they are more likely to purchase from them in the future, or return to the establishment. Whereas an overly frustrating experience will lead to customers quitting a service, changing providers or writing scathing review. And, after all, businesses need customers to survive. </span></p> <h2 dir="ltr"><span>Apple Teaches Empathy</span></h2> <p dir="ltr"><span>Look at one of the largest corporations in the world, Apple. </span><span><a href="http://gizmodo.com/5938323/how-to-be-a-genius-this-is-apples-secret-employee-training-manual">Apple's entire training manual</a>&nbsp;</span><span>is almost entirely dedicated to empathizing, consoling, and cheering up their customers. They even have a program called, "The Power of Empathy." The assumption Apple seems to be making, according to Scott Biddle, is that a happy customer is a customer that will buy things. </span></p> <p dir="ltr"><span>And, to get happy customers, effort needs to be dedicated to relating to the customer, walking in their shoes, and showing empathy toward them. It needs to be personal. </span></p> <p dir="ltr"><span>Clearly, Apple has the sales to show that whatever they are doing works, but what should businesses that aren't Apple (yet) do to relate to their customers? </span></p> <h1 dir="ltr"><span>Creating Personas: A Tool for Empathy</span></h1> <p dir="ltr"><span>Before deciding that sending personalized thank you cards to each and every one of their customers is the right direction to go, businesses should make sure they know who their customers are, whether that kind of gesture is the right one for their audience.</span></p> <p dir="ltr"><span>If business leaders were psychic, they would know exactly what it would take to connect with every customer. But they're not. If they had a crystal ball, they could look deep into the lives of their customers and find out what constitutes a perfect customer service experience. Unfortunately, they don't. </span></p> <p dir="ltr"><span>But they do have the ability to <a href="../../../../com/cognitelabs/www/blog/user-interviews-and-user-experience-testing.html">talk to customers</a>, <a href="../../../../com/cognitelabs/www/blog/user-experience-testing-with-observation.html">to observe them</a>, and to learn who they are. </span></p> <p dir="ltr"><span>And that enables them to create personas; fictive but deep character outlines representing the humans a company intends to serve. </span></p> <p dir="ltr"><span>If empathy is the link between a business and their customers, creating personas allow them to better identify the form empathy ought to take. By understanding the customer's goals, job, responsibilities, etc. a business can begin to piece together a portrait and begin to learn what actions will mean the most to the customer or user. Because when actions mean something to them (like receiving a personalized thank you note), they will remember the business behind those actions and be delighted by them. When they have a delightful experience, it can elicit the same amount of passion as the bad restaurant scenario, but with a much more positive outcome, for both the business and the customer. To create these experiences, businesses need to know what makes the customers tick. </span></p> <p dir="ltr"><span>You've heard the saying, "Going above and beyond," but doing so can mean different things to different people. Creating personas help you figure out what it means to your audience. </span></p> <p dir="ltr"><span>In a world of commerce, customers have a lot of choices when it comes to where they do business. If they aren't happy, they can simply move on. But, a business that takes the time to understand why their customers might leave, what they can do to make them stay, and tries to delight them, will do more than simply hold on to their customers, they'll have champions. &nbsp;</span></p> <h2 dir="ltr"><span>Need Help Creating Personas?</span></h2> <p dir="ltr"><span>
+       <!--HubSpot Call-to-Action Code --> <span class="hs-cta-wrapper" id="hs-cta-wrapper-9ac41ff7-aa19-4553-a923-fbe56db85219"> <span class="hs-cta-node hs-cta-9ac41ff7-aa19-4553-a923-fbe56db85219" id="hs-cta-9ac41ff7-aa19-4553-a923-fbe56db85219"> 
+         <!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]--> <a href="http://cta-redirect.hubspot.com/cta/redirect/440551/9ac41ff7-aa19-4553-a923-fbe56db85219"><img class="hs-cta-img" id="hs-cta-img-9ac41ff7-aa19-4553-a923-fbe56db85219" style="border-width:0px;" src="http://no-cache.hubspot.com/cta/default/440551/9ac41ff7-aa19-4553-a923-fbe56db85219.png" alt="Learn How We Can Help You"></a> </span> <script charset="utf-8" src="http://js.hscta.net/cta/current.js"></script> <script type="text/javascript">
+hbspt.cta.load(440551, '9ac41ff7-aa19-4553-a923-fbe56db85219');
+</script> </span> 
+       <!-- end HubSpot Call-to-Action Code --> </span></p></span> 
+   </section> 
+   <span id="hs_cos_wrapper_blog_social_sharing" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_blog_social_sharing" style="" data-hs-cos-general-type="widget" data-hs-cos-type="blog_social_sharing"> 
+    <div class="hs-blog-social-share"> 
+     <ul class="hs-blog-social-share-list"> 
+     </ul> 
+    </div> </span> 
+   <div id="author-bio" itemscope itemtype="http://schema.org/Person"> 
+    <img width="80" height="80" class="avatar avatar-80 photo" src="http://cdn2.hubspot.net/hub/440551/file-2454575621-jpg/avatars/allison_profile_pic.jpg?t=1441046336424&amp;width=80&amp;height=80" alt="Allison Monroe"> 
+    <div id="author-info"> 
+     <h3>About <span itemprop="givenName">Allison Monroe<span></span></span></h3> Allison is a Content Strategist and writer for Cognite Labs and 
+     <a href="http://startuplansing.org">StartupLansing</a>. She loves writing, reading, and Comic-Cons. Follow her musings on twitter, 
+     <a href="http://www.twitter.com/allyspoon">@allyspoon</a> 
+    </div> 
+    <div class="clear"></div> 
+   </div> 
+  </div> 
+ </div> 
+</section> 
+</article>
