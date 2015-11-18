@@ -1,0 +1,16 @@
+Competitive Analysis:
+ benefit: Be best in class.
+ image: /images/landing-concept-item-1.png
+Design:
+ benefit: Look Awesome.
+ image: /images/landing-concept-item-2.png
+Build:
+ benefit: We build it for you.
+ image: /images/landing-concept-item-3.png
+Review:
+ md: 4
+ benefit: We refine the design until you are happy.
+ image: 
+  - /images/landing-concept-item-4.png
+  - /images/landing-concept-item-5.png
+  - /images/landing-concept-item-6.png
