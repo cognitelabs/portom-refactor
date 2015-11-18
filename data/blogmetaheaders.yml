@@ -1,0 +1,2 @@
+something: >
+ <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/blog/feed.xml" />

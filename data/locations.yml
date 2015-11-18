@@ -4,14 +4,9 @@ Headquarters:
  latitude: 42.73468652640619
  longitude: -84.48057442903519
  image: /images/pin.png
-Satellite:
- address: 614 Theo Ave, Lansing MI 48917
- phone: 517 944 1872
- latitude: 42.73974
- longitude: -84.6182087
 initialmapview:
- latitude: 42.73974
- longitude: -84.6182087
+ latitude: 42.73468652640619
+ longitude: -84.48057442903519
  zoom: 10
 
 #

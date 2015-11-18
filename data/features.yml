@@ -1,24 +1,18 @@
-from file Customer Support:
- description: Lorem ipsum dolor sit amet, consectetur adip.
- icon: fa-group
-from file HTML5 / CSS3 / JS:
- description: Lorem ipsum dolor sit amet, adip.
- icon: fa-file
-from file 500+ Google Fonts:
- description: Lorem ipsum dolor sit amet, consectetur adip.
- icon: fa-google-plus
-from file Colors: 
- description: Lorem ipsum dolor sit amet, consectetur adip.
- icon: fa-adjust
-from file Sliders:
- description: Lorem ipsum dolor sit amet, consectetur.
- icon: fa-film
-from file icons:
- description: lorem ipsum dolor sit amet, consectetur adip.
- icon: fa-user
-from file buttons:
- description: lorem ipsum dolor sit amet, consectetur adip.
- icon: fa-bars
-from file lightbox:
- description: lorem ipsum dolor sit amet, consectetur adip.
- icon: fa-desktop
+Mobile First:
+ description: Your customers have gone mobile and we take that seriously (we wrote a book on it). Your websites will be mobile friendly.
+ icon: fa fa-mobile-phone
+Secure:
+ description: The last thing you want is to hear about your website being hacked. Your website will use a superior architecture to prevent hacks.
+ icon: fa fa-shield
+Customer Support:
+ description: You will get your issue addressed quickly. We begin work within 16 hours of receiving a request.
+ icon: fa fa-whatsapp
+Visibility:
+ description: You will have visiblity into your website traffic. You will be able to see visitors geography, browsers, etc.
+ icon: fa fa-pie-chart
+Fast:
+ description: Your website will be FAST! Speed is critical to conversions, sense of quality, and for low-bandwidth mobile devices. Your site will load in under 2 seconds.
+ icon: fa fa-rocket
+Reliable:
+ description: Your website will not go down. We work hard to ensure your website is up 24/7/365.
+ icon: fa fa-chain

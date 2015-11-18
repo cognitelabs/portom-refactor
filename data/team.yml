@@ -1,32 +1,24 @@
-John Doe:
- title: CEO
- description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac ligula mi, non suscipitaccumsan
- facebook: test
- twitter: johndoe
- linkedin: test
- link: /about/
- picture: /images/team/team-1.jpg
-Jessica Doe:
- title: Marketing
- description: Aenean ultrices feugiat ante ut malesuada. Nulla hendrerit nibh nec mi blandit, a sollicitudin.
- facebook:
+Jesse Flores:
+ title: Founder & CEO
+ description: Jesse is the founder of Cognite Labs and StartupLansing. He is a results-driven leader with years of experience strengthening organizations via performance improvement initiatives, operations management, and technology-enabled innovation. He enjoys working with both technical and business stakeholders, taking the time to understand business needs and applying leading edge technologies to build important software. He loves startups and the entrepreneurial spirt, which prompted him to launch StartupLansing, which is dedicated to helping educate, connect, and promote startup activity in the Lansing region. 
+ facebook: jafloresjr
+ twitter: jflores1c
+ linkedin: https://www.linkedin.com/in/jafloresjr
+ link: "#"
+ picture: /images/custom/cognite-labs-founder-ceo-jesse-flores.jpg
+David Smith:
+ title: Partner & CTO
+ description: David has a wide ranging experience in technology - from helping single person companies launch their websites (or mobile apps!) to servicing billion dollar organizations like Microsoft, Jackson National Life, State of Michigan, and Michigan State University. <br /> <br /> David was also an early adopter and expert on bitcoin. He has been interviewed by USA Today, CBS MoneyWatch, WKAR’s Current State, and Bottom Line IT. In addition to being interviewed on bitcoin David has spoken over a dozen times at bitcoin conferences around the world. Finally David Smith has written bitcoin articles that have been featured on Benzinga and syndicated to financial sites like Yahoo Finance.
+ facebook: DavidSilvaSmith
+ twitter: davidsilvasmith
+ linkedin: https://www.linkedin.com/in/davidssmith
+ link: "#"
+ picture: /images/custom/cognite-labs-cto-david-silva-smith.jpg
+Alexander Cyr:
+ title: Senior Designer
+ description: Alex is an experienced user interaction designer. He has experience with photography, videography, websites, and game design.
+ facebook: alex.cyr.71
  twitter:
- linkedin:
+ linkedin: https://www.linkedin.com/pub/alexander-cyr/6a/717/a13
  link:
- picture: /images/team/team-2.jpg
-Rick Edward Doe:
- title: Developer
- description: Aliquam tincidunt eros imperdiet justo iaculis pharetra sed id velit. Pellentesque et libero eros.
- facebook:
- twitter:
- linkedin:
- link:
- picture: /images/team/team-3.jpg
-Melinda Wolosky:
- title: Design
- description: Etiam eget egestas mauris, et rhoncus odio. Curabitur consectetur cursus quam, interdum euismod enim.
- facebook:
- twitter:
- linkedin:
- link:
- picture: /images/team/team-4.jpg
+ picture: /images/custom/cognite-labs-senior-designer-alexander-cyr.jpg

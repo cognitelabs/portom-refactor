@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-
     <!-- Basic -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
 
     <title><%= page_or_default 'title' %></title>
+    <% if current_page.path.start_with? 'blog'
+        data.blogmetaheaders.each do |headerItem, headerValue | %>
+        <%= headerValue %>
+        <% end %>
+      <% end %>
 
     <meta name="keywords" content="<%= page_or_default 'keywords' %>" />
     <meta name="description" content="<%= page_or_default 'description' %>">
@@ -23,12 +27,12 @@
     <link href="<%= page_or_default 'fonts' %>" rel="stylesheet" type="text/css">
 
     <!-- Vendor CSS -->
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.css">
-    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="vendor/owlcarousel/owl.theme.default.min.css">
-    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/vendor/fontawesome/css/font-awesome.css">
+    <link rel="stylesheet" href="/vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="/vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="/vendor/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/vendor/magnific-popup/magnific-popup.css">
 
     <!-- Theme CSS -->
     <%= stylesheet_link_tag "normalize"%>
@@ -39,8 +43,8 @@
     <%= stylesheet_link_tag "theme-animate" %>
 
     <!-- Current Page CSS -->
-    <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" media="screen">
-    <link rel="stylesheet" href="vendor/circle-flip-slideshow/css/component.css" media="screen">
+    <link rel="stylesheet" href="/vendor/rs-plugin/css/settings.css" media="screen">
+    <link rel="stylesheet" href="/vendor/circle-flip-slideshow/css/component.css" media="screen">
 
     <!-- Skin CSS -->
     <%= stylesheet_link_tag "skins/default" %>
@@ -49,7 +53,7 @@
     <link rel="stylesheet" href="css/custom.css"> -->
 
     <!-- Head Libs -->
-    <script src="vendor/modernizr/modernizr.js"></script>
+    <script src="/vendor/modernizr/modernizr.js"></script>
 
     <!--[if IE]>
       <link rel="stylesheet" href="css/ie.css">
