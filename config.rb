@@ -46,12 +46,12 @@ activate :directory_indexes
 activate :blog do |blog|
   blog.permalink = "/{title}/"
   blog.taglink = ":tag/"
-  blog.year_link = "{year}/"
-  blog.month_link = "{year}/{month}/"
-  blog.day_link = "{year}/{month}/{day}/"
+  #blog.year_link = "{year}/"
+  #blog.month_link = "{year}/{month}/"
+  #blog.day_link = "{year}/{month}/{day}/"
   blog.sources = "{year}-{month}-{day}-{title}.html"
   #blog.year_template = "blog/calendar-year.html"
-  blog.month_template = "/blog/calendar.html"
+  #blog.month_template = "/blog/calendar.html"
   #blog.day_template = "blog/calendar-day.html"
   
   
